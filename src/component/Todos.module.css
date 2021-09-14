@@ -1,0 +1,57 @@
+h2 {
+  /* background-color: green; */
+  text-align: center;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bar {
+  text-align: center;
+  margin: 0 auto;
+}
+input {
+  padding: 10px 77px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    to right,
+    rgba(207, 193, 195, 0.6),
+    rgba(160, 229, 244, 0.6)
+  );
+  border-radius: 5px;
+}
+.cont {
+  background-color: aqua;
+  text-align: center;
+  width: 20%;
+  margin: 10px auto;
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgb(230, 139, 152),
+    rgb(160, 229, 244)
+  );
+  border-radius: 5px;
+}
+.show:hover {
+  text-decoration: underline;
+}
+.show:focus {
+}
+.show {
+  margin-left: 12px;
+  text-decoration: none;
+  color: white;
+}
+p {
+  text-align: center;
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgb(230, 139, 152),
+    rgb(160, 229, 244)
+  );
+  width: 25%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
